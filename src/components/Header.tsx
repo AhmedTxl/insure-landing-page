@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="w-full flex flex-row items-center justify-between 
                        px-[9.5rem] py-[19px] relative z-10 max-lg:px-8">
-      <img src={logo}></img>
+      <img src={logo} alt='Brand logo'></img>
       <nav>
         <div className="block lg:hidden">
           <button
@@ -46,17 +46,17 @@ export default function Header() {
         </div>
         <ul className="inline-flex items-center gap-7 uppercase max-lg:hidden">
           <li className='text-gray-500 font-semibold hover:text-[#2b272f] tracking-wider transition-all'>
-            <a href="#">how We Work</a>
+            <a href="#" aria-label="How We Work">how We Work</a>
           </li>
           <li className='text-gray-500 font-semibold hover:text-[#2b272f] tracking-wider transition-all'>
-            <a href="#">Blog</a>
+            <a href="#" aria-label="Blog">Blog</a>
           </li>
           <li className='text-gray-500 font-semibold hover:text-[#2b272f] tracking-wider transition-all'>
-            <a href="#">Account</a>
+            <a href="#" aria-label="Account">Account</a>
           </li>
           <li className='border border-[#2b272f] px-8 py-3 font-semibold tracking-wider
                          cursor-pointer hover:bg-[#2b272f] hover:text-white transition-all'>
-            <a href="#">View Plans</a>
+            <a href="#" aria-label="View Plans">View Plans</a>
           </li>
         </ul>
         
@@ -71,17 +71,17 @@ export default function Header() {
                   backgroundSize: 'contain'
               }}>
             <li className='text-white font-semibold hover:text-[#c7b9d8] tracking-wider transition-all'>
-              <a href="#">how We Work</a>
+              <a href="#" aria-label="How We Work">how We Work</a>
             </li>
             <li className='text-white font-semibold hover:text-[#c7b9d8] tracking-wider transition-all'>
-              <a href="#">Blog</a>
+              <a href="#" aria-label="Blog">Blog</a>
             </li>
             <li className='text-white font-semibold hover:text-[#c7b9d8] tracking-wider transition-all'>
-              <a href="#">Account</a>
+              <a href="#" aria-label="Account">Account</a>
             </li>
             <li className='border border-white text-white text-center w-5/6 px-8 py-4 font-semibold tracking-wider
                          cursor-pointer hover:bg-white hover:text-[#2b272f] transition-all'>
-              <a href="#">View Plans</a>
+              <a href="#" aria-label="View Plans">View Plans</a>
             </li>
           </ul>
         )}

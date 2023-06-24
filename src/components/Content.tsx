@@ -56,9 +56,9 @@ export default function Content() {
 
                 <article className="flex flex-col items-start gap-6 text-[#2b272f] max-lg:items-center max-lg:text-center">
                     <div className=" mt-48 border-[1px] border-b-0 border-[#2d264088] w-36 max-lg:mt-40"></div>
-                    <h1 className="mt-5 font-['DM_Serif_Display'] text-[76px] max-lg:text-6xl max-md:text-[7.5vw] max-sm:text-[2.75rem]">
+                    <h2 className="mt-5 font-['DM_Serif_Display'] text-[76px] max-lg:text-6xl max-md:text-[7.5vw] max-sm:text-[2.75rem]">
                         We're different
-                    </h1>
+                    </h2>
                     <div className="inline-flex items-start justify-center mt-12 gap-8 max-lg:flex-col max-lg:items-center">
                         <div className="flex flex-col items-start gap-8 max-lg:items-center">
                             <img src={snappyPicture} alt='Simple lightining icon'></img>
@@ -71,7 +71,7 @@ export default function Content() {
                             </p>
                         </div>
                         <div className="flex flex-col items-start gap-8 max-lg:items-center">
-                            <img src={affordablePicture} alt='Simple lightining icon'></img>
+                            <img src={affordablePicture} alt='Dollar sign icon'></img>
                             <h2 className="font-['DM_Serif_Display'] text-2xl" style={{ WebkitTextStroke: 'thin' }}>
                                 Affordable Prices
                             </h2>
@@ -81,7 +81,7 @@ export default function Content() {
                             </p>
                         </div>
                         <div className="flex flex-col items-start gap-8 max-lg:items-center">
-                            <img src={peoplePicture} alt='Simple lightining icon'></img>
+                            <img src={peoplePicture} alt='Avatar icon'></img>
                             <h2 className="font-['DM_Serif_Display'] text-2xl" style={{ WebkitTextStroke: 'thin' }}>
                                 People First
                             </h2>
@@ -92,15 +92,17 @@ export default function Content() {
                         </div>
                     </div>
                 </article>
-                <div className="relative overflow-hidden inline-flex items-center justify-between bg-[#2d2640] 
-                                py-14 px-20 mt-20 w-full max-lg:px-8 max-lg:pt-8 max-lg:pb-18 max-lg:flex-col max-lg:gap-10 max-lg:text-center">
+                <div className="relative overflow-hidden inline-flex items-center 
+                                justify-between bg-[#2d2640] py-14 px-20 mt-20 
+                                w-full max-lg:px-8 max-lg:pt-8 max-lg:pb-18 
+                                max-lg:flex-col max-lg:gap-10 max-lg:text-center">
                     <picture>
                         <source srcSet={howWeWorkBgPatternMobile} media='(max-width: 1024px)' />
                         <img className='absolute bg-right right-0 top-0 z-0' src={howWeWorkBgPatternDesktop} alt='Backgorund pattern' />
                     </picture>
-                    <h1 className="font-['DM_Serif_Display'] text-[3.7vw] basis-1/2 max-[1350px]:text-[3.2vw] max-lg:text-[36px]">
+                    <h3 className="font-['DM_Serif_Display'] text-[3.7vw] basis-1/2 max-[1350px]:text-[3.2vw] max-lg:text-[36px]">
                         Find out more about how we work
-                    </h1>
+                    </h3>
                     <button className="border-[2px] border-white px-10 py-4
                                        hover:bg-white hover:text-[#2d2640] 
                                        uppercase transition-all z-10">How We Work</button>

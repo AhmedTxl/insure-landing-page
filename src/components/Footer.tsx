@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className='footer-bg flex flex-col items-center w-full bg-[#fafafa] py-16 max-lg:py-20'>
             <div className='inline-flex justify-between w-4/5 max-lg:flex-col 
                             max-lg:w-auto max-lg:items-center max-lg:gap-8 max-lg:z-10'>
-                <img src={logo} className='h-5 max-lg:w-3/4'></img>
+                <img src={logo} className='h-5 max-lg:w-3/4' alt='Brand logo'></img>
                 <ul className="inline-flex items-center gap-4 max-lg:gap-6">
                     <li className='hovering-svg'>
                         <a href="#">
