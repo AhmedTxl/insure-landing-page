@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;500;700&display=swap");
+
+:root {
+  /* Primary Colors */
+  --dark-violet: #2d2640;
+  --grayish-Blue: #95a9c6;
+
+  /* Neutral Colors */
+  --very-dark-violet: #2b272f;
+  --dark-grayish-violet: #837d87;
+  --very-light-gray: #fafafa;
+
+  /* Font Types */
+  --dm-serif: "DM Serif Display", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+html {
+  display: flex;
+}
+
+body {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.link-underline {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.35s ease-in-out;
+}
+
+.link-underline-color {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(var(--dark-violet), var(--dark-violet));
+}
+
+.link-underline:hover {
+  background-size: 100% 1.5px;
+  background-position: 0 100%;
+}
+
+.hovering-svg path {
+  transition: fill 0.25s ease;
+}
+
+.hovering-svg:hover path {
+  fill: #2d2640;
+}
+
+.footer-bg {
+  background-image: url("./assets/bg-pattern-footer-desktop.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+@media not all and (min-width: 1024px) {
+  .footer-bg {
+    background-image: url("./assets/bg-pattern-footer-mobile.svg");
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
