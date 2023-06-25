@@ -69,9 +69,20 @@ ul {
   background-repeat: no-repeat;
 }
 
+.find-out-more {
+  background-image: url("./assets/bg-pattern-how-we-work-desktop.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
 @media not all and (min-width: 1024px) {
   .footer-bg {
     background-image: url("./assets/bg-pattern-footer-mobile.svg");
+  }
+
+  .find-out-more {
+    background-image: url("./assets/bg-pattern-how-we-work-mobile.svg");
   }
 }
 

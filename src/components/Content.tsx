@@ -14,7 +14,7 @@ import leftIntroBgPatternDesktop from './../assets/bg-pattern-intro-left-desktop
 import leftIntroBgPatternMobile from './../assets/bg-pattern-intro-left-mobile.svg';
 export default function Content() {
     return (
-        <main className="flex flex-col relative z-[1]">
+        <main className="flex flex-col items-center relative z-[1]">
             <section id="intro-section" 
                      className="inline-flex items-start gap-14 bg-[#2d2640] text-white pr-36 pl-12 py-[6.5rem] max-h-[37.65rem]
                                 max-lg:flex-col-reverse max-lg:max-h-full max-lg:px-0 max-lg:py-0">
@@ -50,9 +50,9 @@ export default function Content() {
                     alt="Family Intro Image" />
 
             </section>
-            <section className="flex flex-col items-start max-h-[1400px] 
-                                gap-16 text-white px-36 py-28 max-lg:max-h-full
-                                max-lg:px-8 max-lg:pt-0">
+            <section className="flex flex-col items-start max-h-[1400px] max-w-[1440px]
+                                gap-16 text-white px-36 py-28 
+                                max-lg:max-h-full max-lg:px-8 max-lg:pt-0">
 
                 <article className="flex flex-col items-start gap-6 text-[#2b272f] max-lg:items-center max-lg:text-center">
                     <div className=" mt-48 border-[1px] border-b-0 border-[#2d264088] w-36 max-lg:mt-40"></div>
@@ -92,15 +92,10 @@ export default function Content() {
                         </div>
                     </div>
                 </article>
-                <div className="relative overflow-hidden inline-flex items-center 
-                                justify-between bg-[#2d2640] py-14 px-20 mt-20 
-                                w-full max-lg:px-8 max-lg:pt-8 max-lg:pb-18 
+                <div className="find-out-more relative overflow-hidden inline-flex items-center justify-between bg-[#2d2640] 
+                                px-16 py-14 w-full max-lg:px-8 max-lg:pt-8 max-lg:pb-18 
                                 max-lg:flex-col max-lg:gap-10 max-lg:text-center">
-                    <picture>
-                        <source srcSet={howWeWorkBgPatternMobile} media='(max-width: 1024px)' />
-                        <img className='absolute bg-right right-0 top-0 z-0' src={howWeWorkBgPatternDesktop} alt='Backgorund pattern' />
-                    </picture>
-                    <h3 className="font-['DM_Serif_Display'] text-[3.7vw] basis-1/2 max-[1350px]:text-[3.2vw] max-lg:text-[36px]">
+                    <h3 className="font-['DM_Serif_Display'] text-[2.85em] max-w-[500px] max-[1350px]:text-[3.2vw] max-lg:text-[36px]">
                         Find out more about how we work
                     </h3>
                     <button className="border-[2px] border-white px-10 py-4
