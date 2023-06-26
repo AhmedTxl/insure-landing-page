@@ -90,7 +90,7 @@ export default function Content() {
                     </div>
                 </article>
                 <div className="find-out-more relative overflow-hidden inline-flex items-center justify-between bg-[#2d2640] 
-                                px-16 py-14 w-full max-lg:px-8 max-lg:pt-8 max-lg:pb-18 
+                                my-20 px-16 py-14 w-full max-lg:px-8 max-lg:pt-8 max-lg:pb-18 
                                 max-lg:flex-col max-lg:gap-10 max-lg:text-center">
                     <h3 className="font-['DM_Serif_Display'] text-[2.85em] max-w-[500px] max-[1350px]:text-[3.2vw] max-lg:text-[36px]">
                         Find out more about how we work
