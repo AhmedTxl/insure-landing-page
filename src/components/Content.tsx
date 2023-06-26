@@ -4,9 +4,6 @@ import snappyPicture from './../assets/icon-snappy-process.svg';
 import affordablePicture from './../assets/icon-affordable-prices.svg';
 import peoplePicture from './../assets/icon-people-first.svg';
 
-import howWeWorkBgPatternDesktop from './../assets/bg-pattern-how-we-work-desktop.svg';
-import howWeWorkBgPatternMobile from './../assets/bg-pattern-how-we-work-mobile.svg';
-
 import rightIntroBgPatternDesktop from './../assets/bg-pattern-intro-right-desktop.svg';
 import rightIntroBgPatternMobile from './../assets/bg-pattern-intro-right-mobile.svg';
 
